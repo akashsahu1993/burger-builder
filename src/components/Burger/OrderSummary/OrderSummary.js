@@ -4,9 +4,9 @@ import Button from '../../UI/Button/Button';
 
 class OrderSummary extends Component {
     //This could be a functional component, doesn't have to be a class
-    componentWillUpdate(nextProps, nextState, nextContext) {
+/*    componentWillUpdate(nextProps, nextState, nextContext) {
         console.log('[OrderSummary] componentWillUpdate')
-    }
+    }*/
 
     render() {
         const ingredientList = Object.keys(this.props.ingredients).map(
@@ -30,5 +30,5 @@ class OrderSummary extends Component {
             </Aux>
         );
     }
-};
+}
 export default OrderSummary;
