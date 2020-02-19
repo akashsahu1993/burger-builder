@@ -9,9 +9,9 @@ const initialState = {
 };
 
 const INGREDIENT_PRICES = {
-    salad: 1.3,
-    bacon: 0.5,
-    meat: 0.7,
+    salad: 0.5,
+    patty: 0.7,
+    paneer: 1.3,
     cheese: 0.4
 };
 
@@ -39,8 +39,8 @@ const setIngredient = (state, action) => {
     return updateObject(state, {
         ingredients: {
             salad: action.ingredients.salad,
-            bacon: action.ingredients.bacon,
-            meat: action.ingredients.meat,
+            patty: action.ingredients.patty,
+            paneer: action.ingredients.paneer,
             cheese: action.ingredients.cheese
         },
         totalPrice: 4,

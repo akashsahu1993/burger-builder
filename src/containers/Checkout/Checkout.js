@@ -31,10 +31,10 @@ class Checkout extends Component {
     //
     // this.setState({
     //     ingredients: {
-    //         meat: +ingredientsParams.meat,
+    //         paneer: +ingredientsParams.paneer,
     //         cheese: +ingredientsParams.cheese,
     //         salad: +ingredientsParams.salad,
-    //         bacon: +ingredientsParams.bacon
+    //         patty: +ingredientsParams.patty
     //     }
     // })
     //}
